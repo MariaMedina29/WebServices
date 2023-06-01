@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregrado</title>
+    <link rel="stylesheet" href="../style.css">
+    
+</head>
+<body>
+    <header>
+        <div class="contenedor13">
+            <h1>UMNG</h1>
+            <a href="../index.html" class="cerrarsesion">
+                Cerrar sesión
+            </a>
+        </div>
+    </header>
+    <main>
+        <h2>PREGRADO</h2>
+        <form id="myForm" action="../info_pre.php" method="POST">
+            <div class="contenedor9">
+                <label for="name" class="textoingresar7">Ingrese nombre completo del estudiante</label>
+                <input type="text"  id="name" class="informacion" name="nom_pre">
+                <label for="number" class="textoingresar7">Ingrese el código del estudiante</label>
+                <input type="number"  id="number" class="informacion" name="cod_pre">
+                <label for="email" class="textoingresar7">Ingrese el correo institucional del estudiante</label>
+                <input type="email"  id="email" class="informacion" name="correo_pre">
+                <label for="text" class="textoingresar7">Ingrese el posgrado al que pertenece el estudiante</label>
+                <input type="text"  id="text" class="informacion" name="pre">
+                <input type="submit" value="Guardar" class="botonindx3">
+            </div>
+        </form> 
+        
+    </main>
+    
+</body>
+</html>

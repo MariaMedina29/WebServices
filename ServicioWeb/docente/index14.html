@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style.css">
+        <title>Subir documentos posgrado</title>
+    </head>
+    <head></head>
+    <body>
+        <header>
+            <div class="contenedor13">
+                <h1>UMNG</h1>
+                <a href="../index.html" class="cerrarsesion">
+                    Cerrar sesión
+                </a>
+            </div>
+        </header>
+        <main>
+            <h2>SUBIR DOCUMENTOS</h2>
+            <p class="txtinfo">A continuación se podra ver que documentos debe subir del 
+                <br> estudiante.
+            </p>
+            <p class="txtinfo">Para subir un documento de click en la casilla que dice “Sube 
+                <br> un documento” y luego seleciona el documento correspondiente en 
+                <br> formato pdf, si va a enviar los documentos de click en el botón “Enviar 
+                <br> documentos” y si quiere guardar el proceso para continuar más 
+                <br> tarde de click en guardar proceso.
+            </p>
+            <hr class="linea">
+            <form id="myForm" method="POST" action="../upload_pos.php" enctype="multipart/form-data">
+                <div class="contenedor12">
+                    <div class="textoinformativo3">
+                        Lista de chequeo Aux. posgrado.
+                    </div>
+                    <input type="file" name="pos_1" id="pos_1">
+
+                    <div class="textoinformativo3">
+                        Copia de la convocatoria vinculación estímulo económico a estidiantes.
+                    </div>
+                    <input type="file" name="pos_2" id="pos_2">
+                    
+                    <div class="textoinformativo3">
+                        Copia del pantallazo publicación convocatoria.
+                    </div>
+                    <input type="file" name="pos_3" id="pos_3">
+    
+                    <div class="textoinformativo3">
+                        Copia del pantallazo resultados finales.
+                    </div>
+                    <input type="file" name="pos_4" id="pos_4">
+    
+                    <div class="textoinformativo3">
+                        Copia de acta de evaluación de candidatos.
+                    </div>
+                    <input type="file" name="pos_5" id="pos_5">
+    
+                    <div class="textoinformativo3">
+                        Certificación, por parte de la Divisón de Registro Académico indicando que se encuentra matriculado y activo en un programa de maestría o doctorado de la UMNG.
+                    </div>
+                    <input type="file" name="pos_6" id="pos_6">
+    
+                    <div class="textoinformativo3">
+                        Certificación de registro académico para los estudiantes inscritos en primer semestre de un programa de doctorado o maestría en la UMNG deberán certificar un promedio general acomulado de pregrado  o maestría igual o superior a tres punto seis (3.6), en una escala de notas 0.0 a 5.0 o su equivalente a otros esquemas de evaluación.
+                    </div>
+                    <input type="file" name="pos_7" id="pos_7">
+    
+                    <div class="textoinformativo3">
+                        Certificación de registro académico para los estudiantes inscritos en segundo semestre o superior de un programa de doctorado o maestría en la UMNG deberán certificar un promedio de último semestre cursado, igual o superior a cuatro punto cero (4.0), en una escala de notas 0.0 a 5.0 o su equivalente a otros esquemas de evaluación.
+                    </div>
+                    <input type="file" name="pos_8" id="pos_8">
+    
+                    <div class="textoinformativo3">
+                        Presentación del postulante, firmada por parte del lider del proyecto Viíncularse a un  proyecto de inverstigación de la UMNG, debidamente aprobado y financiado, que cuente con recursos por el rubro de estímulo a estudiantes en la modalidad de auxiliar de investigación de posgrado.
+                    </div>
+                    <input type="file" name="pos_9" id="pos_9">
+    
+                    <div class="textoinformativo3">
+                        Carta e presentación del postulante indicando el compromiso de trabajar en la línea de investigación del proyecto que lo vincula, especificando que el desempeño como Auxiliar no interfiere con el normal desarrollo de su actividad académica.Bajo la dirección del investigador principal del proyecto o un coinvestigador del mismo.Esta presentación debe ser avalada por la dirección por la dirección de posgrados y la decanatura respectiva.
+                    </div>
+                    <input type="file" name="pos_10" id="pos_10">
+    
+                    <div class="textoinformativo3">
+                        Carta de auto declaración de postulante donde se indique:
+                        <br> a. No haber recibido previamente el beneficio durante más de dos años consecutivos o no consecutivos.
+                        <br> b. No haber recibido previamente dos estímulos.
+                        <br> c. Se está formando en una área afin con las actividades que va a desempeñar en el proyecto que lo vincula.
+                        <br> d. No podrá recibir ningún otro tipo de estímulo a las modalidades para participación de personal.
+                    </div>
+                    <input type="file" name="pos_11" id="pos_11">
+    
+                    <div class="textoinformativo3">
+                        Presentar el plan de trabajo proyectado para el periodo correspondiente, avalado por el líder del proyecto de investigación  en la maestría o doctorado respectivo. 
+                    </div>
+                    <input type="file" name="pos_12" id="pos_12">
+    
+                    <div class="textoinformativo3">
+                        Presentar fotocopia de cédula de ciudadanía vigente al 150%.
+                    </div>
+                    <input type="file" name="pos_13" id="pos_13">
+    
+                    <div class="textoinformativo3">
+                        Presentar fotocopia del carnet estudiantil.
+                    </div>
+                    <input type="file" name="pos_14" id="pos_14">
+    
+                    <div class="textoinformativo3">
+                        Presentar formato de justificación.
+                    </div>
+                    <input type="file" name="pos_15" id="pos_15">
+    
+                    <div class="textoinformativo3">
+                        Pantallazo de la requisición de univex.
+                    </div>
+                    <input type="file" name="pos_16" id="pos_16">
+                    
+                </div>
+                <div class="contenedor2">
+                    <input name="subir" type="submit" value="Enviar documentos" class="boton5" >
+                    <input type="submit" value="Guardar proceso" class="boton5">
+                </div>
+            </form>
+        </main>
+        
+        
+    </body>
+
+</html>
